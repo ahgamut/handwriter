@@ -1,6 +1,7 @@
 ---
-Language:        Cpp
 BasedOnStyle:  Google
+---
+Language:        Cpp
 NamespaceIndentation: Inner
 AllowAllParametersOfDeclarationOnNextLine: true
 AllowShortBlocksOnASingleLine: true
@@ -20,4 +21,8 @@ SortIncludes:    false
 Standard:        Auto
 TabWidth:        4
 UseTab:          Never
+---
+Language: Json
+DisableFormat: true
+SortIncludes: Never
 ...
